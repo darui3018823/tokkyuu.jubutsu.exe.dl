@@ -32,6 +32,16 @@
         body {
             margin: 0; /* 追加: デフォルトのマージンを取り除く */
         }
+         @font-face {
+            font-family: 'Azuki';
+            src: url('path/to/azuki.ttf') format('truetype');
+            /* 他の必要なフォントのスタイルやプロパティを指定することもできます */
+        }
+
+        .azuki {
+            font-family: 'Azuki', sans-serif;
+            /* 他のスタイルやプロパティを指定することができます */
+        }
     </style>
 </head>
 <body>
@@ -48,13 +58,13 @@
     <div class="center2">
       <h1>Q&A</h1>
     </div>
-    <h2>Q. 特急呪物.exeとはなんですか？</h2>
-    <h2>A. くらてこさんが制作したexeファイルということのみ知っております。</h2>
-    <h2>詳細は知りかねます。</h2> 
-    <h2>Q. なんかダウンロードしたらpc重くなった気がします。責任とってください。</h2>
-    <h2>A. 知ったこっちゃないですね。
-    <h2> このファイルが原因で起こった問題に関しまして、</h2>
-    <h2> 一切の責任を負いかねます。ご理解ください。</h2>
+    <h2 class="azuki">Q. 特急呪物.exeとはなんですか？</h2>
+    <h2 class="azuki">A. くらてこさんが制作したexeファイルということのみ知っております。</h2>
+    <h2 class="azuki">詳細は知りかねます。</h2> 
+    <h2 class="azuki">Q. なんかダウンロードしたらpc重くなった気がします。責任とってください。</h2>
+    <h2 class="azuki">A. 知ったこっちゃないですね。
+    <h2 class="azuki"> このファイルが原因で起こった問題に関しまして、</h2>
+    <h2 class="azuki"> 一切の責任を負いかねます。ご理解ください。</h2>
       
     <h3 class="center2">Created by Qurateko.</h3>
     <h3 class="center1">Daru n. and Qurateko assume no responsibility</h3>
